@@ -1,2 +1,2 @@
 # Test-the-Cloud
-Test library to test and validate your cloud infrastracture
+A PHPUnit extension for testing your cloud infrastructure.

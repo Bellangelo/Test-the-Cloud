@@ -1,0 +1,20 @@
+{
+    "name": "bellangelo/test-the-cloud",
+    "description": "PHPUnit extension to test your cloud infrastructure",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "phpunit/phpunit": "^9.6.0 || ^10.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bellangelo\\TestTheCloud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aggelos Bellos",
+            "email": "aggelosbellos7@gmail.com"
+        }
+    ]
+}
