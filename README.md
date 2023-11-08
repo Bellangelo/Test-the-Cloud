@@ -7,22 +7,22 @@ composer require bellangelo/test-the-cloud
 ```
 
 ## Configuring the extension
-```xml
+```diff
 <phpunit
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
 	bootstrap="vendor/autoload.php"
 >
-	<extensions>
-		<extension class="Bellangelo\TestTheCloud\Extension">
-			<arguments>
-				<array>
-					<element key="template">
-						<string>my-template</string>
-					</element>
-				</array>
-			</arguments>
-		</extension>
++	<extensions>
++		<extension class="Bellangelo\TestTheCloud\Extension">
++			<arguments>
++				<array>
++					<element key="template">
++						<string>my-template</string>
++					</element>
++				</array>
++			</arguments>
++		</extension>
 	</extensions>
 	<testsuites>
 		<testsuite name="unit">
