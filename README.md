@@ -1,5 +1,10 @@
-# Test-the-Cloud
+# Test the Cloud
 A PHPUnit extension for testing your cloud infrastructure.
+
+## Installation
+```
+composer require bellangelo/test-the-cloud
+```
 
 ## Configuring the extension
 ```xml
