@@ -20,3 +20,8 @@ A PHPUnit extension for testing your cloud infrastructure.
 	</testsuites>
 </phpunit>
 ```
+
+## Roadmap
+- [ ] Load AWS credentials through the configuration.
+- [ ] Assert resources contain tag.
+- [ ] Enforce name conventions in resources.
