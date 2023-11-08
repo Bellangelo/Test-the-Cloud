@@ -14,9 +14,15 @@ composer require bellangelo/test-the-cloud
 	bootstrap="vendor/autoload.php"
 >
 	<extensions>
-		<bootstrap class="Bellangelo\TestTheCloud\Extension">
-		    <parameter name="template" value="my-template"/>
-		</bootstrap>
+		<extension class="Bellangelo\TestTheCloud\Extension">
+			<arguments>
+				<array>
+					<element key="template">
+						<string>my-template</string>
+					</element>
+				</array>
+			</arguments>
+		</extension>
 	</extensions>
 	<testsuites>
 		<testsuite name="unit">
@@ -30,3 +36,4 @@ composer require bellangelo/test-the-cloud
 - [ ] Load AWS credentials through the configuration.
 - [ ] Assert resources contain tag.
 - [ ] Enforce name conventions in resources.
+- [ ] Add support for PHPUnit 10+.
